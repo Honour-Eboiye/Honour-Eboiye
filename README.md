@@ -1,13 +1,11 @@
 ## Hi, I'm Honour 👋
 
-
-- 🔭 I’m currently working on building a tech company that specializes in **Cybersecurity**, **Web Development**, **Graphic Design**, and other tech-driven services.
-- 🌱 I’m currently learning how to build powerful **AI systems and agents**, including advanced **home automation assistants** and smart tools using **React** and more.
-- 👯 I’m looking to collaborate on open-source projects in **AI**, **web applications**, and **security tools**.
-- 🤔 I’m looking for help with scaling my **AI assistant projects** and integrating **real-world automation** solutions.
-- 💬 Ask me about **front-end development**, **graphic design**, and creating accessible, tech-driven user experiences.
-- 📫 How to reach me: [Check out my GitHub](https://github.com/Honour-Eboiye) or connect with me on [LinkedIn](https://www.linkedin.com/in/honour-eboiye-22a015311).
-- 🧑 Age: 19yrs
-- 😄 Pronouns: He/Him
-- ⚡ Fun fact: I enjoy building tech that blends **functionality and simplicity**, and I'm always exploring creative ways to make everyday tools smarter.
-
+- 🔭 **I’m currently working on:** Building a custom full-stack cybersecurity portfolio and documenting advanced threat-hunting scenarios, including a recent HawkEye Keylogger DNS Tunneling analysis.
+- 🌱 **I’m currently learning:** Enterprise SIEM monitoring (Microsoft Sentinel, Splunk, KQL) and exploiting/securing AI models through Prompt Injection.
+- 👯 **I’m looking to collaborate on:** Open-source network security tools (like my Python/Scapy Port Scanner) and secure MERN stack web applications.
+- 🎯 **I’m currently seeking:** A 6-month Industrial Work Experience Scheme (SIWES) placement in a SOC L1 or IT Security Operations role.
+- 💬 **Ask me about:** Network reconnaissance, extracting IOCs from PCAPs, Web Vulnerability Assessments (IDOR, XSS), or integrating AWS IAM policies.
+- 📫 **How to reach me:** [Connect on LinkedIn](https://linkedin.com/in/honour-eboiye) | officialhonoureboiye@gmail.com
+- 🧑 **Who I am:** A 300-level Cybersecurity student at Caleb University.
+- 😄 **Pronouns:** He/Him
+- ⚡ **Fun fact:** I started out building full-stack apps and automated AI WhatsApp chatbots, which gave me the perfect under-the-hood perspective to understand how to secure—and break—web infrastructure!
