@@ -1,21 +1,43 @@
-# Hi, I'm Honour Eboiye 👋
+# Hi, I'm Honour Eboiye
+<a href="https://linkedin.com/in/honour-eboiye-22a015311"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a href="mailto:officialhonoureboiye@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?&style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
-**300-Level Cybersecurity Undergraduate at Caleb University** | **Aspiring L1 SOC Analyst** 
+**300-Level Cybersecurity Undergraduate at Caleb University** | **Aspiring Security Analyst**
 
----
+## Objective
+Proactive cybersecurity undergraduate actively seeking a security analyst role or internship (including SIWES placements). Focused on SIEM log analysis, cloud security, network monitoring, and identity management.
 
-### 🎯 What I Bring to the Table
-* **SIEM & Log Analysis:** Hands-on experience configuring Splunk Enterprise, parsing JSON security logs, and writing KQL queries in Microsoft Sentinel.
-* **Network Security & Telemetry:** Proficient with Nmap, Wireshark, Scapy, and implementing micro-segmentation / firewall allow-lists (UFW/Iptables).
-* **Threat Detection & Hardening:** Building isolated sandbox environments, analyzing malware artifacts (PCAP/DNS exfiltration), and enforcing host-level privilege minimization.
+## Technical Skills & Projects
 
-### 🛠️ Featured Security Projects
-* **[Hawkeye Keylogger Incident Response](https://github.com/Honour-Eboiye/hawkeye-keylogger-incident-response):** Performed network traffic analysis and incident response documentation on a malware sample, tracking DNS tunneling and SMTP data exfiltration.
-* **[Scapy Port Scanner](https://github.com/Honour-Eboiye/Scapy_Port_Scanner):** Developed custom network scanning utilities in Python to map active hosts and open ports.
-* **[Deception Sandbox & Splunk Pipeline](https://github.com/Honour-Eboiye):** Deployed isolated threat detection nodes with strict outbound routing rules, streaming real-time security telemetry to a central Splunk SIEM.
+| Core Skill | Associated Project |
+| :--- | :--- |
+| **Network Traffic Monitoring** | [Scapy Port Scanner](https://github.com/Honour-Eboiye/Scapy_Port_Scanner) |
+| **Incident Response & PCAP Analysis** | [Hawkeye Keylogger IR](https://github.com/Honour-Eboiye/hawkeye-keylogger-incident-response) |
+| **SIEM & Log Analysis** | Deception Sandbox & Splunk Pipeline *(Repo creation in progress)* |
+| **Cloud & Identity Security (Azure / Entra ID)** | Cloud & IAM Configuration *(Repo creation in progress)* |
+| **Linux Hardening & Firewalling** | Deception Sandbox & Splunk Pipeline *(Repo creation in progress)* |
 
-### 💼 Current Focus & Availability
-* **Seeking:** A 6-month **Industrial Work Experience Scheme (SIWES)** placement in a Security Operations Center (SOC L1) or IT Security role starting in 2026.
-* **Let's Connect:** 
-  * 📧 Email: [officialhonoureboiye@gmail.com](mailto:officialhonoureboiye@gmail.com)
-  * 🔗 LinkedIn: [linkedin.com/in/honour-eboiye-22a015311](https://www.linkedin.com/in/honour-eboiye-22a015311)
+### Cloud, Identity & SIEM
+<div>
+    <img src="https://img.shields.io/badge/-Microsoft_Azure-0089D6?&style=for-the-badge&logo=microsoft-azure&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Microsoft_Entra_ID-0078D4?&style=for-the-badge&logo=microsoft&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Active_Directory-002B49?&style=for-the-badge&logo=windows&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=microsoft&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
+</div>
+
+### Network, OS & Security Tools
+<div>
+    <img src="https://img.shields.io/badge/-Linux-FCC624?&style=for-the-badge&logo=linux&logoColor=black" />
+    <img src="https://img.shields.io/badge/-Ubuntu-E95420?&style=for-the-badge&logo=ubuntu&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Nmap-000000?&style=for-the-badge&logo=nmap&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Scapy-3776AB?&style=for-the-badge&logo=python&logoColor=white" />
+</div>
+
+### Development & Scripting
+<div>
+    <img src="https://img.shields.io/badge/-Python-3776AB?&style=for-the-badge&logo=python&logoColor=white" />
+    <img src="https://img.shields.io/badge/-TypeScript-3178C6?&style=for-the-badge&logo=typescript&logoColor=white" />
+    <img src="https://img.shields.io/badge/-React-61DAFB?&style=for-the-badge&logo=react&logoColor=black" />
+    <img src="https://img.shields.io/badge/-Node.js-339933?&style=for-the-badge&logo=nodedotjs&logoColor=white" />
+</div>
