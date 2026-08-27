@@ -12,6 +12,7 @@ Proactive cybersecurity undergraduate actively seeking a security analyst role o
 | :--- | :--- |
 | **Network Traffic Monitoring** | [Scapy Port Scanner](https://github.com/Honour-Eboiye/Scapy_Port_Scanner) |
 | **Incident Response & PCAP Analysis** | [Hawkeye Keylogger IR](https://github.com/Honour-Eboiye/hawkeye-keylogger-incident-response) |
+| **SIEM & Log Analysis** | [Hybrid Cloud Security Lab: Azure AD Sync, Linux Arc Onboarding & SIEM Telemetry]([https://github.com/Honour-Eboiye](https://github.com/Honour-Eboiye/Hybrid-Cloud-Security-Lab-Azure-AD-Sync-Linux-Arc-Onboarding-SIEM-Telemetry)) |
 | **SIEM & Log Analysis** | Deception Sandbox & Splunk Pipeline *(Repo creation in progress)* |
 | **Cloud & Identity Security (Azure / Entra ID)** | Cloud & IAM Configuration *(Repo creation in progress)* |
 | **Linux Hardening & Firewalling** | Deception Sandbox & Splunk Pipeline *(Repo creation in progress)* |
