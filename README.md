@@ -3,97 +3,107 @@
 <a href="https://linkedin.com/in/honour-eboiye-22a015311"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="mailto:officialhonoureboiye@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?&style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
-**Cybersecurity Student | Security Operations (SOC) & Cloud Security**
+**Cybersecurity Student | SOC Analysis • Threat Detection • Cloud Security**
 
 ## About
 
-Cybersecurity student focused on **Security Operations, Cloud Security, Threat Detection and Incident Response**.
+I'm a cybersecurity student who learns by building and investigating. My projects focus on how attacks show up in **network traffic, logs and cloud environments**, and how to turn what I find into **detection rules, hardening steps and clear reports**.
 
-I build hands-on security labs and investigate simulated security incidents using **SIEM platforms, network analysis, cloud security controls, identity management and security tooling**.
+Before security, I built web applications, so I can talk to developers and automate repetitive security work with code.
 
-My work focuses on understanding how attacks appear in **logs, network traffic and cloud environments**, then applying detection, investigation and response techniques to identify and mitigate them.
+**Looking for:** SOC Analyst, Cloud Security or Incident Response roles (internship or entry-level).
 
-## Technical Focus
+## Tools I'm Hands-On With
 
-| Area | Technologies / Capabilities |
+| Area | Tools |
 | :--- | :--- |
-| **Security Operations** | SIEM, Security Monitoring, Log Analysis, Alert Triage, Threat Detection |
-| **Incident Response** | Incident Investigation, PCAP Analysis, IOC Identification, Timeline Analysis |
-| **Cloud Security** | Microsoft Azure, Cloud Security Controls, Secure Cloud Deployment |
-| **Identity & Access** | Microsoft Entra ID, Active Directory, IAM, RBAC, MFA |
-| **Network Security** | TCP/IP, DNS, Network Analysis, Nmap, Nikto, Scapy, Wireshark |
-| **Security Detection** | KQL, Splunk, Microsoft Sentinel, Log-Based Detection |
-| **Systems** | Linux, Ubuntu, Windows |
-| **Automation & Scripting** | Python, Bash |
+| **SIEM & Detection** | Microsoft Sentinel, Splunk, KQL, Snort (custom rules) |
+| **Network Analysis** | Wireshark, PCAP analysis, Nmap, Nikto, Scapy |
+| **Cloud & Identity** | Azure, Microsoft Entra ID, Active Directory, Azure Arc, RBAC, MFA |
+| **Hardening** | UFW (default-deny), least privilege, egress filtering |
+| **Frameworks** | MITRE ATT&CK |
+| **Systems & Scripting** | Linux (Ubuntu), Windows, Python, Bash |
 
 ## Security Projects
 
-### HawkEye Keylogger — Incident Response & PCAP Analysis
+### 1. Threat Hunting & Detection Engineering (Snort, MITRE ATT&CK, UFW)
+**Snort • Wireshark • MITRE ATT&CK • UFW • Python**
 
-**Wireshark • PCAP Analysis • Incident Response • Network Traffic Analysis**
+Analyzed a real multi-stage attack against a web server from a public traffic capture (**Malware-Traffic-Analysis.net**), then turned the findings into detection rules and hardening recommendations.
 
-Investigated a malware-related network capture to reconstruct the attack and data-exfiltration path.
+- Mapped the attack to MITRE ATT&CK: port scanning, path traversal and PHP-CGI exploitation, router command injection, and a `tcpdump` buffer overflow aimed at blinding monitoring.
+- Verified the overflow attempt **failed** by checking ICMP port-unreachable responses in the PCAP and confirming no crashes in host logs, instead of assuming the outcome.
+- Wrote custom Snort rules to flag non-web TCP traffic and unexpected UDP.
+- Designed a default-deny UFW baseline with restricted SSH, limited outbound DNS/NTP, and egress filtering to block reverse shells.
+- Built a Python tool to redact IP addresses from the report before sharing, and manually checked AI-generated code and dependencies before running them.
 
-- Analyzed network traffic to identify suspicious communication.
-- Investigated DNS and SMTP traffic associated with malicious activity.
-- Extracted indicators of compromise and relevant network evidence.
-- Reconstructed the incident and assessed the potential impact.
-- Documented root cause, containment and remediation recommendations.
+[View Project](https://github.com/Honour-Eboiye/Threat-Hunting-and-Detection-Engineering)
+
+---
+
+### 2. HawkEye Keylogger: PCAP Analysis & Incident Response
+**Wireshark • PCAP Analysis • IOC Extraction • Incident Response**
+
+Analyzed a real HawkEye keylogger infection from a public malware traffic capture.
+
+- Traced stolen data leaving over SMTP and the related DNS activity.
+- Extracted indicators of compromise (IPs, domains, file hashes).
+- Rebuilt the infection timeline and assessed potential impact.
+- Wrote root cause, containment and remediation recommendations.
+
+**Evidence in the repo:** Wireshark screenshots, IOC list, full incident report.
 
 [View Project](https://github.com/Honour-Eboiye/hawkeye-keylogger-incident-response)
 
 ---
 
-### Hybrid Cloud Security & SIEM Monitoring Lab
+### 3. Hybrid Cloud Security & SIEM Monitoring Lab
+**Azure • Entra ID • Active Directory • Azure Arc • Microsoft Sentinel • KQL**
 
-**Azure • Microsoft Entra ID • Active Directory • Azure Arc • RBAC • Microsoft Sentinel • Linux**
+Built a lab that mirrors a common real-world setup: on-premises identity plus cloud and Linux servers, all feeding one SIEM.
 
-Built and configured a hybrid cloud security environment integrating identity, cloud infrastructure and security monitoring.
-
-- Configured Microsoft Entra Connect Sync for hybrid identity synchronization.
+- Synced Active Directory to Microsoft Entra ID with Entra Connect.
 - Onboarded Ubuntu Linux to Azure through Azure Arc.
 - Applied least-privilege RBAC to cloud resources.
-- Configured Microsoft Sentinel and data collection components for security monitoring.
-- Investigated authentication activity using KQL.
-- Documented configuration, troubleshooting and security decisions.
+- Connected logs to Microsoft Sentinel and used KQL to investigate authentication activity.
+- Documented the setup, troubleshooting and security decisions.
+
+**Evidence in the repo:** architecture diagram, KQL screenshots, RBAC configuration.
 
 [View Project](https://github.com/Honour-Eboiye/Hybrid-Cloud-Security-Lab-Azure-AD-Sync-Linux-Arc-Onboarding-SIEM-Telemetry)
 
 ---
 
-### Scapy Port Scanner
-
+### 4. Scapy Port Scanner
 **Python • Scapy • TCP/UDP • Network Security**
 
-Developed a Python-based network scanner using Scapy to perform TCP and UDP port scanning.
+Wrote a command-line scanner to understand how port scans work and what they look like on the wire.
 
-- Implemented TCP SYN scanning.
-- Added UDP scanning capabilities.
-- Implemented IP and port-range validation.
-- Added connectivity checks and error handling.
-- Analyzed and interpreted network responses.
+- TCP SYN and UDP scanning.
+- IP and port-range validation, connectivity checks and error handling.
+- Interpreted network responses to tell open, closed and filtered ports apart.
 
 [View Project](https://github.com/Honour-Eboiye/Scapy_Port_Scanner)
 
-## Security Learning
+## Certificates & Training
 
-Currently developing deeper capability in:
+- **Cisco Networking Academy: Introduction to Cybersecurity**
+- **Cisco Networking Academy: Networking Basics**
+- **APIsec University: API Security Fundamentals**
+- **TryHackMe: Advent of Cyber 2025** (hands-on, scenario-based security challenges)
+- **Deloitte (Forage) Job Simulation: [name of the simulation, e.g. Cyber / Technology]**
+- **Networking, Security and Maintenance: [issuer, e.g. platform or institution]**
 
-- Security Operations & SOC workflows
-- SIEM & Detection Engineering
-- Incident Response
-- Cloud Security
-- IAM & Least Privilege
-- Network Security
-- Threat Detection
-- Security Automation
+**In progress / planned**
+- **Long-term:** CISSP, through the Associate of ISC2 pathway
+
+Currently going deeper on detection engineering, SIEM workflows, incident response and cloud security.
 
 ## Development Background
 
-My software-development background includes **Python, TypeScript, React, Node.js and MongoDB**.
-
-I use this foundation to approach cybersecurity from both the **application and infrastructure side**, with an interest in security automation and eventually DevSecOps/security engineering.
+I've built applications with **Python, TypeScript, React, Node.js and MongoDB**. That helps me spot how web applications get attacked and automate security tasks. I'm interested in growing toward security engineering and DevSecOps.
 
 ## Connect
 
-I'm interested in **SOC, Security Operations, Cloud Security, Incident Response and security engineering opportunities**, as well as collaborating on practical security projects.
+- **Email:** [officialhonoureboiye@gmail.com](mailto:officialhonoureboiye@gmail.com)
+- **LinkedIn:** [linkedin.com/in/honour-eboiye-22a015311](https://linkedin.com/in/honour-eboiye-22a015311)
